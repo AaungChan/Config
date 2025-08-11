@@ -1,0 +1,62 @@
+proxies:
+
+- name: ava.game.naver.com WS
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
+  udp: true
+  network: ws
+  ws-opts: 
+    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
+    headers: 
+      Host: ikada.sing-box.space
+  tls: true
+  servername: ikada.sing-box.space
+  skip-cert-verify: true
+
+- name: ava.game.naver.com WC
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
+  udp: true
+  network: ws
+  ws-opts: 
+    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
+    headers: 
+      Host: ava.game.naver.com.ikada.sing-box.space
+  tls: true
+  servername: ava.game.naver.com.ikada.sing-box.space
+  skip-cert-verify: true
+
+- name: app.gopay.co.id WS
+  server: app.gopay.co.id
+  port: 443
+  type: vless
+  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
+  udp: true
+  network: ws
+  ws-opts: 
+    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
+    headers: 
+      Host: ikada.sing-box.space
+  tls: true
+  servername: ikada.sing-box.space
+  skip-cert-verify: true
+
+- name: app.gopay.co.id WC
+  server: app.gopay.co.id
+  port: 443
+  type: vless
+  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
+  udp: true
+  network: ws
+  ws-opts: 
+    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
+    headers: 
+      Host: app.gopay.co.id.ikada.sing-box.space
+  tls: true
+  servername: app.gopay.co.id.ikada.sing-box.space
+  skip-cert-verify: true
+
