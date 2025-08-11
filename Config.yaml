@@ -1,7 +1,7 @@
 proxies:
 
-- name: ava.game.naver.com WS
-  server: ava.game.naver.com
+- name: [IFLIX]
+  server: ikada.sing-box.space
   port: 443
   type: vless
   uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
@@ -12,51 +12,22 @@ proxies:
     headers: 
       Host: ikada.sing-box.space
   tls: true
-  servername: ikada.sing-box.space
+  servername: vplay.iflix.com
   skip-cert-verify: true
 
-- name: ava.game.naver.com WC
-  server: ava.game.naver.com
+- name: [IFLIX] NewMedia Express Pte Ltd
+  server: free.mediafairy.site
+  type: vmess
   port: 443
-  type: vless
-  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
-  udp: true
-  network: ws
-  ws-opts: 
-    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
-    headers: 
-      Host: ava.game.naver.com.ikada.sing-box.space
+  uuid: f82d75b4-c952-4410-b6a3-314628c8ee1c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: ava.game.naver.com.ikada.sing-box.space
   skip-cert-verify: true
-
-- name: app.gopay.co.id WS
-  server: app.gopay.co.id
-  port: 443
-  type: vless
-  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
-  udp: true
+  servername: vplay.iflix.com
   network: ws
-  ws-opts: 
-    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
-    headers: 
-      Host: ikada.sing-box.space
-  tls: true
-  servername: ikada.sing-box.space
-  skip-cert-verify: true
-
-- name: app.gopay.co.id WC
-  server: app.gopay.co.id
-  port: 443
-  type: vless
-  uuid: dee988c4-d6ae-4f45-9b2f-dea187bbc13e
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: free.mediafairy.site
   udp: true
-  network: ws
-  ws-opts: 
-    path: /in-depth-analyze-to-ux-design/buy-vless-ws-pm-telegram-at-synricha
-    headers: 
-      Host: app.gopay.co.id.ikada.sing-box.space
-  tls: true
-  servername: app.gopay.co.id.ikada.sing-box.space
-  skip-cert-verify: true
-
